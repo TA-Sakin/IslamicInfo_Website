@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IslamicInfo</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"/>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">IslamicInfo</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#services" class="navbar__links" id="services-page">Services</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="#sign" class="button" id="signup">Sign Up</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <h2 class="hero__heading">Discover how you can speak about <span>Islam</span> with <span>confidence</span></h2>
+        <p class="hero__description">Unlimited Possibilities</p>
+        <button class="main__btn"><a href="https://iera.org/">Explore</a></button>
+      </div>
+    </div>
+
+
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__img--container">
+          <div class="main__img--card"><i class="fas fa-layer-group"></i></div>
+        </div>
+        <div class="main__content">
+          <h1>What do we do?</h1>
+          <h2>We want to see a world reconnected to God(ALLAH)</h2>
+          <p>Schedule a call to learn more about our services</p>
+          <button class="main__btn"><a href="mailto:tasakin98@gmail.com">Schedule Call</a></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="services" id="services">
+      <h1>Our Services</h1>
+      <div class="services__wrapper">
+        <div class="services__card">
+          <h2>Read Quran</h2>
+          <p>Get closer to Allah</p>
+          <div class="services__btn"><button><a href="https://quran.com/">Get Started</a></button></div>
+        </div>
+        <div class="services__card">
+          <h2>Listen Sirah</h2>
+          <p>Know about Prophet'sﷺ life</p>
+          <div class="services__btn"><button><a href="https://audiomack.com/rain-drops-media/song/01-bn-seerah-personality-of-prophet-muhammad-saw?fbclid=IwAR0g4VJqG_bl30jnSm3BR0g-VA0_VtUto8mRtLCb_6V1esDRW0oNZKLthOU">Get Started</a></button></div>
+        </div>
+        <div class="services__card">
+          <h2>Read Hadith</h2>
+          <p>Verify what you hear!</p>
+          <div class="services__btn"><button><a href ="https://sunnah.com/">Get Started</a></button></div>
+        </div>
+        <div class="services__card">
+          <h2>Questions About Islam</h2>
+          <p>Get advice and academic answer</p>
+          <div class="services__btn"><button><a href="https://islamqa.info/en">Get Started</a></button></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main" id="sign-up">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>Join Our Team</h1>
+          <h2>Sign Up Today</h2>
+          <p>See what makes us different</p>
+          <button class="main__btn"><a href="#sign">Sign Up</a></button>
+        </div>
+        <div class="main__img--container">
+          <div class="main__img--card" id="card-2">
+            <i class="fas fa-users"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="my-5">
+      <div class="py-5">
+        <h2 class="main__bn" style="text-align:center" id="sign">Sign Up</h2>
+      </div>
+
+      <div class="w-50 m-auto">
+        <form action="userinfo.php" method="post">
+          <div class="form-group">
+            <div class="col">
+            <input type="text" name="user"
+            autocomplete="on" class="form-control" placeholder="Username" required/>
+           </div>
+
+           <div class="form-group">
+             <div class="col">
+               <input type="text" name="email" autocomplete="on" class="form-control" placeholder="Email Address" required/>
+             </div>
+           <div class="form-group">
+            <div class="col">
+            <input type="text" name="pass"
+             autocomplete="off" class="form-control" placeholder="Password" required/>
+          </div>
+          <button type="submit" class="main__bn">Continue</button>
+        </form>
+      </div>
+    </section>
+
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>About Us</h2>
+            <a href="/">How it works</a> <a href="/">Testimonials</a>
+            <a href="/">Careers</a> <a href="/">Terms of Service</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Contact Us</h2>
+            <a href="mailto:tasakin98@gmail.com">Contact</a> <a href="/">Support</a>
+            <a href="/">Destinations</a>
+          </div>
+        </div>
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>Videos</h2>
+            <a href="/">Submit Video</a> <a href="/">Ambassadors</a>
+            <a href="/">Agency</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Social Media</h2>
+            <a href="/">Instagram</a> <a href="/">Facebook</a>
+            <a href="/">Youtube</a> <a href="/">Twitter</a>
+          </div>
+        </div>
+      </div>
+
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="#home" id="navbar__logo">IslamicInfo</a>
+          </div>
+          <p class="website__rights">© 2020 IslamicInfo. All rights reserved</p>
+          <div class="social__icons">
+            <a href="/" class="social__icon--link" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="app.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
