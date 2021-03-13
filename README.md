@@ -1,4 +1,2 @@
 # IslamicInfo_Website
-This is a responsive website.
-In this website you will find some useful islamic site of various organizations. All the quotes are taken from https://iera.org/
-I used HTML,CSS,Bootstrap,JavaScript,PHP & MySql.
+This is a responsive website. You will find some useful islamic website of various organizations here. All the quotes used in this website are taken from https://iera.org/. I used HTML,CSS,Bootstrap,JavaScript,PHP & MySql.
